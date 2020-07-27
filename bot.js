@@ -1,3 +1,39 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@fadikoro 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+fadikoro
+/
+fadilegends
+Private
+1
+0
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+fadilegends/bot.js /
+@fadikoro
+fadikoro Update bot.js
+Latest commit 9bc6e4b 6 days ago
+ History
+ 1 contributor
+4818 lines (4134 sloc)  224 KB
+  
 const Discord = require('discord.js');  //WESO#0001
 const client = new Discord.Client();  //WESO#0001
 const moment = require('moment');
@@ -3717,7 +3753,7 @@ reaction2.on("collect", r => {
 『-sug ====> suggestions لصنع اقتراح لازم روم 
 『-bs ====> لمعرفة سيرفرات البوت
 『-rooms ====> لرؤية رومات السيرفر
-『-dc ====> لمعرف عدد الاعضاء والنفايتات الاعضاء
+『-dc ====> مسح كل الرومات
 『-dr ====>  فوق كل الرانكات
 『-allbots ====> يوريك كل البوتات في سيرفرك
 『-move ====> لسحب عضو الى روم صوتية
@@ -4357,7 +4393,6 @@ client.on("message", message => {
 8)ممنوع طلب الرتبه والرتب تكون بالتفاعل
 9)لاستخدام البوت  فى - #cmd
 __
-
 @everyone || @here
 ●▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬●
   
@@ -4816,3 +4851,15 @@ client.on('message',  (message) => {
 
 
 client.login(process.env.BOT_TOKEN);
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
